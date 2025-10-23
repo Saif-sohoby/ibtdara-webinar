@@ -22,6 +22,8 @@ Route::prefix('auth/login')->group(function () {
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::put('/participant/profile/update', [ParticipantController::class, 'updateProfile']);
+    Route::delete('participant/account/delete', [ParticipantController::class, 'deleteAccount']);
+
     Route::get('/webinars', [WebinarController::class, 'index']);
     Route::get('/webinars/{id}', [WebinarController::class, 'show']);
     Route::post('webinars/join/{id}', [WebinarController::class, 'joinWebinar']);

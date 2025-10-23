@@ -52,4 +52,25 @@ class ParticipantController extends Controller
             ], 200);
         }
     }
+
+    public function deleteAccount(Request $request)
+    {
+        try {
+            $participant = $request->user();
+            $participant->delete();
+
+            return response()->json([
+                'success' => true,
+                'code'    => 200,
+                'message' => 'Account deleted successfully.',
+            ], 200);
+        } catch (\Throwable $e) {
+            return response()->json([
+                'success' => false,
+                'code'    => 500,
+                'message' => 'Something went wrong.',
+                'error'   => app()->environment('production') ? null : $e->getMessage(),
+            ], 200);
+        }
+    }
 }
