@@ -26,6 +26,7 @@ class BroadcastWebinarNotification extends Notification implements ShouldQueue
     public function toDatabase($notifiable): array
     {
         return [
+            'title'          => 'Broadcast Message',
             'type'           => 'webinar_broadcast',
             'webinar_id'     => $this->webinarId,
             'segment'        => $this->segment,
