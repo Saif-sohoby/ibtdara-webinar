@@ -1,0 +1,12 @@
+[2025-10-23 09:26:51] local.INFO: [WhatsApp] Sending message {"payload":{"number":"+923047740725","message":"9517"},"status":401,"body":"{\"status\":false,\"error\":\"unauthorized\"}"} 
+[2025-10-23 09:29:15] local.INFO: [WhatsApp] Sending message {"payload":{"number":"+923047740725","message":"4267"},"status":503,"body":"{\"status\":false,\"error\":\"Client not connected (state: null). Please re-authenticate.\"}"} 
+[2025-10-23 09:30:55] local.INFO: [WhatsApp] Sending message {"payload":{"number":"+923047740725","message":"4318"},"status":503,"body":"{\"status\":false,\"error\":\"Client not connected (state: null). Please re-authenticate.\"}"} 
+[2025-10-23 09:31:12] local.INFO: [WhatsApp] Sending message {"payload":{"number":"+923047740725","message":"7675"},"status":503,"body":"{\"status\":false,\"error\":\"Client not connected (state: null). Please re-authenticate.\"}"} 
+[2025-10-23 09:35:26] local.ERROR: Cannot declare class App\Filament\Resources\WebinarResource\RelationManagers\ParticipantsRelationManager, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Filament\\Resources\\WebinarResource\\RelationManagers\\ParticipantsRelationManager, because the name is already in use at /var/www/manage-dev/app/Filament/Resources/WebinarParticipantRelationManagerResource/RelationManagers/ParticipantsRelationManager.php:35)
+[stacktrace]
+#0 {main}
+"} 
+[2025-10-23 09:35:26] local.ERROR: Cannot declare class App\Filament\Resources\WebinarResource\RelationManagers\ParticipantsRelationManager, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Filament\\Resources\\WebinarResource\\RelationManagers\\ParticipantsRelationManager, because the name is already in use at /var/www/manage-dev/app/Filament/Resources/WebinarParticipantRelationManagerResource/RelationManagers/ParticipantsRelationManager.php:35)
+[stacktrace]
+#0 {main}
+"} 
